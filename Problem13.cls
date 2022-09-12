@@ -1,0 +1,5 @@
+public class Fibonacci {
+    public static Integer fibonacci(Integer n) {
+        return (n == 1 || n == 2) ? 1 : fibonacci(n - 1) + fibonacci(n - 2);
+    }
+}
